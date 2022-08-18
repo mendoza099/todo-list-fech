@@ -1,0 +1,63 @@
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+
+
+body{
+    background-color: #ffefff;
+}
+.container{
+    margin-top: 5%;
+}
+h1{
+    font-size: 100px;
+    color: #ff8dfe;
+    
+}
+.inputText{
+    width: 60%;
+    font-size: 30px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    color: #835e83;
+}
+.inputText::placeholder{
+    color: #bfb9bf;
+}
+.list-group{
+    font-size: 35px;
+    list-style:none;
+    color: #835e83;
+}
+#itemsLeft{
+    margin-left: 100px;
+    font-size: 1rem;
+}
+button.close{
+    font-size: 50px;
+    border: none;
+    line-height: none;
+    outline: none;
+    color: #835e83;
+}
+button.close:hover{
+    color: #653a65;
+}
+
+.cardList{
+    background-color: white;
+    border: solid 1px #bfb9bf;
+}
+.botonInvisible{
+    display:none;
+}
